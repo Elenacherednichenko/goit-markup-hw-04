@@ -44,11 +44,11 @@ a {
 }
 
 .container {
- width: 1200px;
- padding-right: 15px;
- padding-left: 15px;
- margin-left: auto;
- margin-right: auto;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header {
@@ -58,8 +58,8 @@ a {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
 }
- 
-.header-container{
+
+.header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -71,10 +71,10 @@ a {
 }
 
 .logo {
- margin-right: 93px;
- padding-top: 24px; 
- padding-bottom: 24px;
- font-family: "Raleway", sans-serif;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
   font-weight: 700;
@@ -111,6 +111,8 @@ a {
   background-color: var(--primary-white-color);
 }
 
+.convert(1) {
+}
 
 .mailto:hover,
 .mailto:focus {
@@ -245,12 +247,12 @@ a {
 }
 
 .btn-group {
-display: flex;
-align-items: center;
-justify-content: center;
-flex-wrap: wrap;
-gap: 8px;
-margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
 }
 
 .btn-group .button {
@@ -265,7 +267,7 @@ margin-bottom: 14px;
   color: var(--primary-text-color);
   background-color: var(--secondary-background-color);
 }
-.btn-group:nth-last-child(3){
+.btn-group:nth-last-child(3) {
   margin-right: 0px;
 }
 
@@ -306,9 +308,8 @@ features-list {
   gap: 30px;
 }
 
-
 .features-title {
- text-align: start;
+  text-align: start;
   text-transform: uppercase;
   margin-top: 0px;
   margin-bottom: 10px;
@@ -320,8 +321,8 @@ features-list {
 }
 
 .features-text {
- text-align: start;
- margin-top: 0px;
+  text-align: start;
+  margin-top: 0px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -358,19 +359,19 @@ features-list {
 }
 
 .work-list {
-display: flex;
-align-items: center;
-justify-content: space-between;
-gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
 }
 
-.section-team{
+.section-team {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--secondary-background-color);
 }
 
-.section-title{
+.section-title {
   text-align: center;
   margin-bottom: 49px;
   font-weight: 700;
@@ -378,23 +379,21 @@ gap: 30px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  
 }
 
-.team-list{
+.team-list {
   display: flex;
   align-items: center;
   gap: 30px;
   background-color: var(--secondary-background-color);
 }
 
-
 .team-item {
   width: 270px;
   background-color: var(--primary-white-color);
 }
 
-.team{
+.team {
   padding: 30px;
 }
 
@@ -417,7 +416,7 @@ gap: 30px;
   color: var(--title-text-color);
 }
 
-.gallery{
+.gallery {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -437,31 +436,31 @@ gap: 30px;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
-  line-height: 2.0;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
 }
-.gallery-example{
+.gallery-example {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 24px;
   padding-left: 24px;
 }
 
-.gallery-item{
- width: 370px;
+.gallery-item {
+  width: 370px;
 }
 
 .gallery-item:nth-child(3) {
-margin-right: 0px;
+  margin-right: 0px;
 }
 
 .gallery-item:nth-last-child(3) {
-margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
-.gallery-list{
+.gallery-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
