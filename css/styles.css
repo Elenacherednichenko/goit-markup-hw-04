@@ -70,7 +70,7 @@ a {
   align-items: center;
 }
 
-.logo {
+.logo-header {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -102,16 +102,13 @@ a {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  outline: 1px, solid, var(--accent-color);
+  outline: 1px solid var(--accent-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
-}
-
-.convert(1) {
 }
 
 .mailto:hover,
@@ -141,7 +138,6 @@ a {
   display: block;
   max-width: 100%;
   height: auto;
-  margin-right: 0;
 }
 
 .phone {
@@ -187,15 +183,16 @@ a {
   color: var(--primary-white-color);
 }
 
-.hero button-primary {
+.button-primary {
   display: flex;
   align-items: center;
   text-align: center;
-  padding: 18px 22px;
+  padding: 10px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
   width: 200px;
+  height: 50px;
   justify-content: center;
   font-family: inherit;
   cursor: pointer;
@@ -228,7 +225,6 @@ a {
   display: flex;
   align-items: center;
   text-align: center;
-  margin-left: 8px;
   min-width: 73px;
   border-radius: 4px;
   font-family: inherit;
@@ -301,7 +297,7 @@ a {
   margin: -1px;
 }
 
-features-list {
+.features-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -480,7 +476,7 @@ features-list {
   background-color: var(--primary-background-color);
 }
 
-.footer.logo-down {
+.footer .logo-down {
   display: inline-block;
   margin-bottom: 20px;
   font-family: "Raleway";
@@ -493,6 +489,9 @@ features-list {
 }
 
 .adress {
+  display: flex;
+  gap: 9px;
+  flex-direction: column;
   font-style: normal;
 }
 
