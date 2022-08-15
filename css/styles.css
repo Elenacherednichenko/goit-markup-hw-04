@@ -71,9 +71,7 @@ a {
 }
 
 .logo-header {
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  margin-bottom: 20px;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
@@ -115,6 +113,8 @@ a {
 .mailto:focus {
   color: var(--accent-color);
 }
+. svg-icon {
+}
 
 .contact {
   display: flex;
@@ -124,7 +124,7 @@ a {
 }
 
 .mailto {
-  display: block;
+  display: inline-block;
   width: 135px;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -132,6 +132,14 @@ a {
   font-size: 14px;
   line-height: 1.14;
   color: var(--accent-color);
+}
+
+.mailto ::before {
+  content: "";
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  background-image: url(../images/envelope.svg);
 }
 
 .img {
@@ -478,7 +486,6 @@ a {
 
 .footer .logo-down {
   display: inline-block;
-  margin-bottom: 20px;
   font-family: "Raleway";
   font-style: normal;
   font-size: 26px;
