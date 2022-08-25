@@ -15,6 +15,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+
 *,
 *:before,
 *:after {
@@ -58,12 +59,12 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+
 img {
   display: block;
   width: 100%;
   height: auto;
 }
-
 
 .header {
   line-height: 1.19;
@@ -73,10 +74,14 @@ img {
   background-color: var(--primary-white-color);
 }
 
-.header-container {
+.header.container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.header-container {
+  display: flex;
+  align-items: center;
 }
 
 .nav {
@@ -94,7 +99,7 @@ img {
   line-height: 1.19;
   font-weight: 700;
   color: var(--secondary-title-text-color);
-  }
+}
 
 .logo-accent {
   color: var(--accent-color);
@@ -128,7 +133,7 @@ img {
   margin-left: auto;
 }
 
-.contact-list{
+.contact-list {
   display: flex;
   align-items: center;
   margin-right: 10px;
@@ -137,6 +142,7 @@ img {
 
 .mailto {
   display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
@@ -198,7 +204,7 @@ img {
   height: 600px;
   outline: 1px solid black;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 04)),
-    url('../images/hero.jpg);
+    url("../images/hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -211,15 +217,15 @@ img {
   margin-left: auto;
   margin-right: auto;
   font-weight: 900;
-  font-size: 44px; 
+  font-size: 44px;
   text-transform: uppercase;
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
- }
+}
 
-.hero button-primary:hover,
-.hero button-primary:focus {
+.hero.button-primary:hover,
+.hero.button-primary:focus {
   background-color: var(--secondary-accent-color);
   color: var(--primary-white-color);
 }
@@ -235,7 +241,6 @@ img {
   border: none;
   border-radius: 4px;
   width: 200px;
-  height: 50px;
   justify-content: center;
   font-family: inherit;
   cursor: pointer;
@@ -280,8 +285,8 @@ img {
   background-color: var(--accent-color);
 }
 
-.btn group .button:hover,
-.btn group .button:focus {
+.btn-group .button:hover,
+.btn-group .button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -293,8 +298,7 @@ img {
   justify-content: center;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 3
-  4px;
+  margin-bottom: 34px;
 }
 
 .btn-group .button {
@@ -310,6 +314,7 @@ img {
   color: var(--primary-text-color);
   background-color: var(--secondary-background-color);
 }
+
 .btn-group:nth-last-child(3) {
   margin-right: 0px;
 }
@@ -339,7 +344,7 @@ img {
   width: 1px;
   height: 1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
 }
@@ -351,7 +356,7 @@ img {
   gap: 30px;
 }
 
-.features-icon{
+.features-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -423,7 +428,7 @@ img {
   background-color: var(--primary-white-color);
 }
 
-.cliens-title {
+.clients-title {
   text-align: center;
   margin-bottom: 50px;
   font-weight: 700;
@@ -466,7 +471,7 @@ img {
 .clients-logo {
   align-items: center;
   justify-content: center;
-  fill: #afb1b8
+  fill: #afb1b8;
 }
 
 .clients-logo:hover,
@@ -474,7 +479,6 @@ img {
   background-color: var(--primary-white-color);
   fill: var(--accent-color);
 }
-
 
 .section-team {
   padding-top: 94px;
@@ -502,7 +506,8 @@ img {
 .team-item {
   width: 270px;
   height: 428px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--primary-white-color);
 }
@@ -535,12 +540,12 @@ img {
 }
 
 .list-net {
-  margin-top: 0px;  
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
   gap: 10px;
 }
 
@@ -553,6 +558,7 @@ img {
   border-radius: 50%;
   cursor: pointer;
   background-color: var(--primary-white-color);
+  fill: #afb1b8;
 }
 
 .list-net-item.one {
@@ -573,9 +579,8 @@ img {
 .social-net.link:hover,
 .social-net.link:focus {
   background-color: var(--accent-color);
-  fill:  var(--primary-white-color);
+  fill: var(--primary-white-color);
 }
-
 
 .gallery {
   padding-top: 94px;
@@ -647,7 +652,6 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -660,12 +664,12 @@ img {
   font-family: "Raleway";
   font-style: normal;
   margin-bottom: 20px;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  font-weight: 700;
   text-decoration: none;
   color: var(--primary-white-color);
- }
+}
 
 .locate {
   margin-right: 70px;
@@ -692,19 +696,11 @@ img {
   color: var(--primary-white-color);
 }
 
-.footer text {
-  font-family: "Roboto";
-  font-size: 14px;
-  line-height: 1.19;
-  color: var(--primary-white-color);
-  margin-bottom: 20px;
-}
-
 .mailto-item {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.02em;
-  color:  rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .mailto-item:hover,
@@ -723,29 +719,30 @@ img {
 .tel-item:focus {
   color: var(--accent-color);
 }
- 
+
 footer.container {
   display: flex;
-align-items: center;
-justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-container {
   display: flex;
   align-items: baseline;
+  justify-content: center;
 }
 
 .join-title {
-margin-bottom: 20px;
-padding-top: 0px;
-padding-bottom: 0px;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--primary-white-color);
-}  
+  margin-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
 
 .join-list {
   display: flex;
@@ -757,7 +754,7 @@ color: var(--primary-white-color);
 }
 
 .join-item {
-  gap:10px;
+  gap: 10px;
 }
 
 .join-social-net.link {
@@ -778,6 +775,4 @@ color: var(--primary-white-color);
 
 .join-icon {
   fill: var(--primary-white-color);
-
-
 }
