@@ -601,6 +601,7 @@ section {
 }
 
 .gallery-example {
+  border: 1px solid #eeeeee;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
