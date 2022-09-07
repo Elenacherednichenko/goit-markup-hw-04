@@ -145,6 +145,8 @@ header.container {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  display: flex;
+  align-items: center;
   color: var(--title-text-color);
   fill: currentColor;
 }
@@ -171,6 +173,8 @@ header.container {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  display: flex;
+  align-items: center;
   color: var(--title-text-color);
   fill: currentColor;
 }
@@ -193,6 +197,12 @@ header.container {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/herobg.jpg);
   background-color: var(--primary-background-color);
 }
 
@@ -201,18 +211,12 @@ header.container {
   min-height: 600px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid black;
-
   background-color: #c4c4c4;
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url("../images/hero.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  text-align: center;
+  outline: 1px solid black;
 }
 
 .hero-title {
@@ -452,7 +456,7 @@ section {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  fill: currentColor;
+  fill: #afb1b8;
 }
 
 .clients-link:hover,
@@ -461,19 +465,6 @@ section {
   background-color: var(--primary-white-color);
   fill: var(--accent-color);
 }
-
-.clients-logo {
-  align-items: center;
-  justify-content: center;
-  fill: #afb1b8;
-}
-
-.clients-logo:hover,
-.clients-logo:focus {
-  background-color: var(--primary-white-color);
-  fill: var(--accent-color);
-}
-
 .section-team {
   padding-top: 94px;
   padding-bottom: 94px;
